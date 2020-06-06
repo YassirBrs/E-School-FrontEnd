@@ -23,14 +23,14 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { RoomsComponent } from './rooms/rooms.component';
+import { RoomsComponent } from './Room/rooms/rooms.component';
 import { UsersComponent } from './users/users.component';
-import { BookingsComponent } from './bookings/bookings.component';
-import { NewRoomComponent } from './new-room/new-room.component';
-import { EditRoomComponent } from './edit-room/edit-room.component';
-import { NewBookingComponent } from './new-booking/new-booking.component';
-import { EditBookingComponent } from './edit-booking/edit-booking.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { BookingsComponent } from './Booking/bookings/bookings.component';
+import { NewRoomComponent } from './Room/new-room/new-room.component';
+import { EditRoomComponent } from './Room/edit-room/edit-room.component';
+import { NewBookingComponent } from './Booking/new-booking/new-booking.component';
+import { EditBookingComponent } from './Booking/edit-booking/edit-booking.component';
+import { SidebarComponent } from './SidebarMenu/sidebar.component';
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true,
 };

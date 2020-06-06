@@ -5,10 +5,10 @@ import {
   ReactiveFormsModule,
   Validators,
 } from '@angular/forms';
-import { NewRoomService } from '../services/new-room.service';
+import { NewRoomService } from '../../services/new-room.service';
 import { ToastrService } from 'ngx-toastr';
-import { State } from '../Models/State';
-import { LayoutCapacity } from '../Models/LayoutCapacity';
+import { State } from '../../Models/State';
+import { LayoutCapacity } from '../../Models/LayoutCapacity';
 import { Observable } from 'rxjs';
 
 @Component({

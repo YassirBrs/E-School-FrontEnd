@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RoomsService } from '../services/rooms.service';
+import { RoomsService } from '../../services/rooms.service';
 import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { ToastrService } from 'ngx-toastr';
 

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { NewBookingService } from '../services/new-booking.service';
-import { RoomsComponent } from '../rooms/rooms.component';
+import { NewBookingService } from '../../services/new-booking.service';
+import { RoomsComponent } from '../../Room/rooms/rooms.component';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { EditRoomService } from '../services/edit-room.service';
+import { EditRoomService } from '../../services/edit-room.service';
 import { ActivatedRoute } from '@angular/router';
-import { Room } from '../Models/Room';
+import { Room } from '../../Models/Room';
 import { ToastrService } from 'ngx-toastr';
 
 @Component({

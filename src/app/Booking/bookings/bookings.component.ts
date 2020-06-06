@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BookingsService } from '../services/bookings.service';
+import { BookingsService } from '../../services/bookings.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { ToastrService } from 'ngx-toastr';
 
