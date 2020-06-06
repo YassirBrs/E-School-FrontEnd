@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="panel panel-primary">
+    <div class="panel-heading">Users List</div>
+    <div class="panel-body"></div>
+    <div class="panel-body">
+      <!-- <form #f="ngForm" (ngSubmit)="onChercher(f.value)">
+        <div>
+          <label for="">Keyword</label>
+          <input type="text" name="keyword" ngModel />
+          <button type="submit" class="btn btn-success">Chercher</button>
+        </div>
+      </form> -->
+      <table *ngIf="users" class="table table-striped">
+        <tr>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>CIN</th>
+          <th>Register ID</th>
+          <th></th>
+        </tr>
+        <tr *ngFor="let u of users">
+          <td>{{ u.name }}</td>
+          <td>{{ u.surname }}</td>
+          <td>{{ u.cin }}</td>
+          <td>{{ u.registreId }}</td>
+          <td>
+            <button
+              type="button"
+              class="btn btn-primary"
+              th:onclick="|showRoomDetails(${room.id})|"
+            >
+              view
+            </button>
+          </td>
+        </tr>
+      </table>
+      <!-- <ul *ngIf="users" class="nav nav-pills">
+        <li
+          *ngFor="let p of users; let i = index"
+          class="nav-item clickable"
+          data-toggle="pill"
+        >
+          <a (click)="onGetPage(i)">{{ i }}</a>
+        </li>
+      </ul> -->
+    </div>
+  </div>
+</div>
